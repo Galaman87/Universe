@@ -1,0 +1,10 @@
+﻿<Application x:Class="Universe.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Universe"
+             xmlns:local1="clr-namespace:Universe.ViewModel"
+             StartupUri="Views/MainView.xaml">
+    <Application.Resources>
+        <local1:MainVievModel x:Key="vmlocator"></local1:MainVievModel>
+    </Application.Resources>
+</Application>
